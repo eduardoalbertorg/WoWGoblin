@@ -9,3 +9,14 @@ C:\Users\EduardoAlberto\Dropbox\Escuela\ITSZ\Estructura de datos\Tercer parcial\
 C:\Users\EduardoAlberto\Dropbox\Escuela\ITSZ\Estructura de datos\Tercer parcial\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.csproj.GenerateResource.Cache
 C:\Users\EduardoAlberto\Dropbox\Escuela\ITSZ\Estructura de datos\Tercer parcial\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.exe
 C:\Users\EduardoAlberto\Dropbox\Escuela\ITSZ\Estructura de datos\Tercer parcial\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.pdb
+C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\bin\Debug\WoWGoblin.exe.config
+C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.exe
+C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.pdb
+C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\bin\Debug\WoWGoblin.exe
+C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\bin\Debug\WoWGoblin.pdb
+C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.csprojResolveAssemblyReference.cache
+C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.Form1.resources
+C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.Properties.Resources.resources
+C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.csproj.GenerateResource.Cache
