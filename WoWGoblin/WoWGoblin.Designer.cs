@@ -35,6 +35,7 @@
             this.updateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configurationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MINBUYOUT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.profitableTab = new System.Windows.Forms.TabPage();
             ((System.ComponentModel.ISupportInitialize)(this.itemsDgv)).BeginInit();
             this.WoWGoblinTab.SuspendLayout();
             this.itemsTab.SuspendLayout();
@@ -82,6 +83,7 @@
             // 
             this.WoWGoblinTab.Controls.Add(this.itemsTab);
             this.WoWGoblinTab.Controls.Add(this.SpecificItemsTab);
+            this.WoWGoblinTab.Controls.Add(this.profitableTab);
             this.WoWGoblinTab.Dock = System.Windows.Forms.DockStyle.Top;
             this.WoWGoblinTab.Location = new System.Drawing.Point(0, 27);
             this.WoWGoblinTab.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -110,7 +112,7 @@
             this.SpecificItemsTab.Padding = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.SpecificItemsTab.Size = new System.Drawing.Size(887, 565);
             this.SpecificItemsTab.TabIndex = 1;
-            this.SpecificItemsTab.Text = "Specific Items";
+            this.SpecificItemsTab.Text = "Specific items";
             this.SpecificItemsTab.UseVisualStyleBackColor = true;
             // 
             // WoWGoblinMenu
@@ -152,6 +154,16 @@
             this.MINBUYOUT.Name = "MINBUYOUT";
             this.MINBUYOUT.ReadOnly = true;
             // 
+            // profitableTab
+            // 
+            this.profitableTab.Location = new System.Drawing.Point(4, 31);
+            this.profitableTab.Name = "profitableTab";
+            this.profitableTab.Padding = new System.Windows.Forms.Padding(3);
+            this.profitableTab.Size = new System.Drawing.Size(887, 565);
+            this.profitableTab.TabIndex = 2;
+            this.profitableTab.Text = "Profitable items";
+            this.profitableTab.UseVisualStyleBackColor = true;
+            // 
             // WoWGoblinFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
@@ -188,7 +200,7 @@
         private System.Windows.Forms.ToolStripMenuItem updateToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem configurationToolStripMenuItem;
         private System.Windows.Forms.DataGridViewTextBoxColumn MINBUYOUT;
+        private System.Windows.Forms.TabPage profitableTab;
     }
 }
-
 

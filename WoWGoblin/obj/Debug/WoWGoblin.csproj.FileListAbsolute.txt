@@ -19,4 +19,4 @@ C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\bin\Debug\Newtonsof
 C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.csprojResolveAssemblyReference.cache
 C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.Properties.Resources.resources
 C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.csproj.GenerateResource.Cache
-C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.frmWoWGoblin.resources
+C:\Users\EduardoAlberto\Documents\GitHub\WoWGoblin\WoWGoblin\obj\Debug\WoWGoblin.WoWGoblinFrm.resources
