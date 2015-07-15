@@ -1,5 +1,5 @@
 ﻿namespace WoWGoblin {
-    partial class Form1 {
+    partial class frmWoWGoblin {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -23,38 +23,136 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.dgvItems = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ITEMNAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MARKETVALUE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabWoWGoblin = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.configurationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvItems)).BeginInit();
+            this.tabWoWGoblin.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // dgvItems
             // 
-            this.button1.Location = new System.Drawing.Point(424, 196);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.dgvItems.AllowUserToAddRows = false;
+            this.dgvItems.AllowUserToDeleteRows = false;
+            this.dgvItems.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvItems.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.ITEMNAME,
+            this.MARKETVALUE});
+            this.dgvItems.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvItems.Location = new System.Drawing.Point(3, 3);
+            this.dgvItems.Name = "dgvItems";
+            this.dgvItems.ReadOnly = true;
+            this.dgvItems.Size = new System.Drawing.Size(583, 323);
+            this.dgvItems.TabIndex = 2;
             // 
-            // label1
+            // ID
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(157, 125);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.ID.HeaderText = "Id";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
             // 
-            // Form1
+            // ITEMNAME
+            // 
+            this.ITEMNAME.HeaderText = "Name";
+            this.ITEMNAME.Name = "ITEMNAME";
+            this.ITEMNAME.ReadOnly = true;
+            // 
+            // MARKETVALUE
+            // 
+            this.MARKETVALUE.HeaderText = "Market value";
+            this.MARKETVALUE.Name = "MARKETVALUE";
+            this.MARKETVALUE.ReadOnly = true;
+            // 
+            // tabWoWGoblin
+            // 
+            this.tabWoWGoblin.Controls.Add(this.tabPage1);
+            this.tabWoWGoblin.Controls.Add(this.tabPage2);
+            this.tabWoWGoblin.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tabWoWGoblin.Location = new System.Drawing.Point(0, 24);
+            this.tabWoWGoblin.Name = "tabWoWGoblin";
+            this.tabWoWGoblin.SelectedIndex = 0;
+            this.tabWoWGoblin.Size = new System.Drawing.Size(597, 355);
+            this.tabWoWGoblin.TabIndex = 3;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.dgvItems);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(589, 329);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(192, 74);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(597, 24);
+            this.menuStrip1.TabIndex = 4;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.updateToolStripMenuItem,
+            this.configurationToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "&File";
+            // 
+            // updateToolStripMenuItem
+            // 
+            this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
+            this.updateToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.updateToolStripMenuItem.Text = "&Update";
+            this.updateToolStripMenuItem.Click += new System.EventHandler(this.updateToolStripMenuItem_Click);
+            // 
+            // configurationToolStripMenuItem
+            // 
+            this.configurationToolStripMenuItem.Name = "configurationToolStripMenuItem";
+            this.configurationToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.configurationToolStripMenuItem.Text = "&Configuration";
+            // 
+            // frmWoWGoblin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(668, 542);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(597, 542);
+            this.Controls.Add(this.tabWoWGoblin);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "frmWoWGoblin";
+            this.Text = "WoW Goblin";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvItems)).EndInit();
+            this.tabWoWGoblin.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -62,8 +160,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dgvItems;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ITEMNAME;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MARKETVALUE;
+        private System.Windows.Forms.TabControl tabWoWGoblin;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem updateToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem configurationToolStripMenuItem;
     }
 }
 
